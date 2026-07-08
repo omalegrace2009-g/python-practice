@@ -18,4 +18,16 @@ print(name, age)
 print(1); print("true"); print("alter")
 print("Hello World!", end=" ")
 print("Oh no!")
-print("Hello World!", "Oh no!")
+print("Hello World!", 200, "Oh no!")
+
+# more on print function
+print(2*2+2-2/2)
+print(2/2)
+print(2-2)
+print(2+2)
+
+# comments
+"""
+This is a comment
+"""
+#this is also a comment
