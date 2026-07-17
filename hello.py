@@ -180,4 +180,16 @@ age = 23
 word = f"i am {age:x} years old"
 print(word)
 
-
+# Escape Characters
+# this is used to insert illegal characters in a string by using a backward slash
+# it also allows to use double quotes when it normally won't be permitted
+tt = "i am done \"with\" all of this" #single quote
+ta = "i am done \"(backslash)\" all of this" #backslash
+ts = "i am done \n all of this" #newline
+tg = "i am done \r in of this" # return
+tu = "i am done \t all of this" #tab
+print(tt)
+print(ta)
+print(ts)
+print(tg)
+print(tu)
